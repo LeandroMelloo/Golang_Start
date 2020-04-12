@@ -1,8 +1,12 @@
 package main
 
-import "scope"
+import (
+	"fmt"
+	"scope"
+)
 
 func main() {
 	scope.PrintZ()
 	scope.PrintY()
+	fmt.Println(scope.Y)
 }
