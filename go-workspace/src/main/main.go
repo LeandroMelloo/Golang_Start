@@ -7,6 +7,6 @@ import (
 )
 
 func main() {
-	u := uuid.Must(uuid.NewV4())
+	u, _ := uuid.NewV4()
 	fmt.Printf("main, %s\n", u)
 }
